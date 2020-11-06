@@ -1,0 +1,165 @@
+Angular Component :--> 
+
+1. All Component represnet in Angular using @component Decorator
+
+2. Each component in Angular contains some properties :--> 
+
+   1. Selector :--  for Component Angular use Element Selector. <app-root>
+   2. templateURL::=-- done
+   3. styleUrls ::-- its Component Specific CSS 
+ +++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+    CSS :-- in CSS / HTML there  are four type of Selectors :-> 
+
+           1. # :-- id selector
+           2. <>:-- element Selector 
+           3. . :-- class Selector 
+           4. [] :--- Attribute Selector 
+
+   ++++++++++++++++++++++++++++++++++++++++++++++++
+
+Deployment :-- > ng serve :---package.json :--
+       build :-- Deploy   (Webpack Engine) :--host the app
+
+++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+
+JSX :-- Javascript XML :--> 
+
+
+
+HTML :=-- <h1></h1> :-- pre defined 
+
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+Tightly Coulple :--> 
+
+ Component contains 2 HTML :--> 
+
+++++++++++++++++++++++++++++++++++++++++
+
+
+<h1>hello <h1>
+<h1>hello <h1>
+<h1>helo </h1>
+
+
+Component :-- its contains four file :-- .ts /.css/.spec.ts/ html1/ Html2
+                                     
+
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+3. Angular component contains 4 important files :--> 
+
+ 1. component.ts :--> Business Logic (source code).  // 
+ 2. component.html :--> template (HTML template).
+ 3. component.css :--> look & feel (component Specific).
+ 4. component.spec.ts:-- test case (unit test cases).
+
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+ 
+ ng serve :--- package.json / angular.json:---index.html/main.ts----> 
+
+ bootstrap(AppModule) :-look up :--- AppComponent :--As Element Selector :-
+ 
+--index.html (with .ts/.html/.css)
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+4. Binding in Angular :--
+
+ Angular support two type of Binding :--> 
+  
+ 1. one way binding   ({{}})  :-- Angular Expression  (property/ Event)
+ 2. Two Way binding (ngModel) :-- Internal Directive
+
+JavaScript :--> there are two type of Event in JS Stack :-> 
+
+  1. internal Event (JS-onClick/Mousehover ) :--- Angular :-- Life Cycle Hooks (Component Life Cycle method). 
+
+  2. External Event (JS/ Custome Event):-- Angular :-- > Custome Event created by Developer.
+
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+3. In Angular  , app.module.ts is the very important file which 
+contains Angular configuration . this is representing by @ngModule 
+and contains four section. 
+
+1. declaration :-- you must be register (component/directive/pipe). 
+2. imports :--- this is a important section used to import angular 
+             internal or External module 
+
+             internalModule :--> http-module/ plateform-browser/Form-module
+                                 etc.
+             external module :-- ng g module moduleName
+
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+ PWA :-- prograssive Web App :-->  UI/UX :-- 1. Responsiveness
+                                             2. PWA
+                                             3. Performance  ES6
+                                             4. Maintability 
+
+
+
+3. bootstrap   :--- its basecally refer to the component as Entry point 
+                    for your. 
+4. provider  :-- its use to resgister the Angular service and using to 
+                 call the Web API 
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+
+
+
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+Lets create one more componant :-->
+
+  ng generate (g) compomnent namecomp. 
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+
+Directive In A10 :--> There are two type of Directive used in Angular 
+
+(Directive are using for DOM Manuplutation :--> )
+
+1. Internal Directive  :-(ngModel/ngif/*ngFor/ngForm etc.) :--Directive are                          always refer in template as Attribute.
+
+   <button name="hello"> </button>
+
+
+2. External Directive  :-- its custome one created need basis. or we can't
+  craete as reserve name ng. its represent by the @Directive Decorator.
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+Note :-- Angular lib (core Engine)  + RIA (Rich Internet App Component)
+   
+    There are three Lib used in A10 Implementation. 
+
+     1. Angular + Bootstrap  txt box / toggle/grid
+     2. Angular + Material JS  txt box / toggle/grid
+     3. Angular + Prime NG  txt box / toggle/grid 
+
+
+
+  ng g component mycomponent
+
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+
+Assignmnet :-- > 
+
+Add the two more functionalities in the Existing of Angular Customer
+Operation . 
+
+1. Delete Operation
+2. Edit Operation 
+
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ 
+
+
+
+
+
+
+
+
+
+

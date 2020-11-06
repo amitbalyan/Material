@@ -1,0 +1,247 @@
+ ES6 :-- Code :--
+ 
+ Angular 10 :-- Es6 + TS + Angular 10 feature
+
+ ES 6 + TS :-- ES5(99.9 %) Support
+
+
+   NPM installer :-- Angular :-- bundel :-- Web server
+
+                     Node :--------------------IIS
+
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+Why TS Typescript :--> 
+
+Some problem exist in ES 6 code :--> 
+
+1. not proper modifire support (_/ this/previledged):-
+
+   TS :-- >  _ :-- private 
+             this:-- public
+             preveledged :-- protected 
+             const :-- readonly  
+
+2.  var a=10; b=10,c=9.6,d='c', s="hello";   
+
+   (java Script Container responsibility)  
+
+   Ts :-- Introduced various datatype :-- user define data type/normal datatype :-- int/float etc.
+
+    TS :--- plain js (datatype  :-- No)
+
+test.ts :--- test.js
+
+3. Js support single level Inheritance :-- TS (same in TS ).
+  
+   same in TS implementation. 
+
+4. Method implementation :-- Normal Method /Method with Optional param (?)/
+                             default param (=).
+   Most of the Sementaic is easy to implement in TS code . 
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++   3.1 Extended for Angular 10 
+
+    
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+ Angular :- how it will RecoZ Angular when node  up your APP
+
+  Node :--> NPM + HTTP Server + V8 Engine(JS Container)
+
+NPM :-- Node package manager (install the dependencies in project).
+
+   NPMJS.org
+
+
+npm start
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+ IIS / Tomcat /Jetty (http server) :--> Light weight container (java/C#)
+
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+JS based Container  :-- Node
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+TS :---  ES6 + New feature of TS which add on in the Env.
+
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+Discussion of variour modifire here :--> 
+
+1.public  :-- done 
+2.private :--> 
+        _ are using for private impl in ES6 :- which is converted in ts as 
+         private  :-- done
+
+3. protected :-- done
+4. readonly
+
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+8.Interface
+9. module :-------------------------------------------> 
+10. generics:--------------------------------------> 
+11. JSX :---------------------------------------->
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+module 1   Class A    Module 2 Class B
+                      import Module1.ClassA
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+There are two important keyword used here :--> 
+
+ import / Export :--> (Es6 keyword)
+
+smaple code :--> 
+
+fileA.ts
+ export class A{
+
+// properties
+
+// Methods
+
+
+}
+
+fileB.ts
+
+import A from './fileA';
+export Class B{
+
+
+
+// properties
+
+// Methods
+
+
+}
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+generics:--------------------------------------> type safe of Object
+
+note :--its represent by the <> symbol 
+
+
+  List list= new ArrayList<Customer>()
+
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+Interface  ?? :--
+
+declaration of The Services (methods)
+& these methods are implemented in Various Class's
+
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+ JSX :--- Angular ? Html 1x -------------------html 5x  6x
+
+
+HTML :--- >  <h1> hello  </h1>   :-- print in bold
+             <h2> hello1 </h2> :--- print in littel bold
+  :-- <h1> :-- tag :-- JS Container :-- h1.js:-- properties
+  :---<h1>:---tag :-- js container :--- h2.js :-- properties
+
+<>:-- JSX Syntax :---- >  JS Class :--- XML :--> tag 
+
+
+Angular / React/Vue.js :--> 
+
+ Note :- development of own custome component :--> 
+
+   class xyx{      JSX
+
+  // impl     :-----------------<xyz> </xyz>
+
+
+
+ }
+ 
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+Angular PMP :--- Angular CLI :--Command Line Interface
+
+ Angular project :---- Angular CLI 
+
+  ng new projectName
+
+
+
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+Angular 10 Important points :--> 
+
+1
+
+
+2. Angular contains various Annotation which is representing the Angular
+   component. 
+
+     @Component :---- Angular Component (UI Represent the data)
+     @ngModule :-----Angular Module 
+     @Directive :----- Angular Directive
+     @Pipe :----------Angular Pipe (filter data)
+     @input/@ouput:--- using data Sharing b/w the Component 
+     @injectable :--- Angular Service using calling the Web API
+     __________________________++_________________________________
+
+3. Angular suppport the SPA development which is using for Single 
+   page Application Development & its using @angular/router Module 
+   internally. 
+
+4. Angular provide support TDD (Test Driven Environment) in the project
+   internally.(karma.js/instalbul/jasmine) framework. (Testing framework). 
+
+5. Creating all the component in Angular using ng commmand :--> 
+
+   Component :--> ng g component NameofComponent
+   Directive :---> ng g directive NameOfDirective
+   Pipe :--------> ng g pipe pipeName
+   module :-----> ng g module Module 
+   class :-----> ng g class ClassName
+   service:----> ng g service ServiceName
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ 
+    
+
+
+  
+
+ 
+
+
+
+   
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

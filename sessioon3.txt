@@ -1,0 +1,42 @@
+Folder Structure of A10 :--> 
+
+1.e2e :-- end to end Testing (protractor.js using for E2E Testing ).
+
+2.node_module :-- it contains allthe dependices based on A10 project.
+
+3. src :-- its contains all the A10 Development code. 
+
+         3.1:--app :-- it contains all the Angular component with 
+                       source code (routing/component/directive/pipe/module).
+         3.2:--assets :-- img/external js/external css (UI resources).  
+
+         3.3 :-- environment :-- its contains the Environment setting (prod/
+                  testing/dev).  
+
+         3.4 :-- > index.html :--- entry point of your project. 
+         3.5 :-- > main.ts :-- this is also a very important file use to 
+                   configure the main module of A10
+         3.6 :--> pollyfills :-- compatable for IE10/IE11 add on 
+         3.7 :-- > style.css :-- place the External CSS file Applicable on 
+                   all the component.
+
+angular.json :--> this is very important file which contains the entry point
+              project/module configuration etc.
+
+karma.config.json :--- its all about configuration of testing(jasmine/instalbul/karma/ chrome extension etc.)
+
+package-lock.json :-- its tamp file & contains all the NPMJS resource entry.
+
+tsconfig.app.json :--
+tsconfig.json :-- its important ts config file which contains TypeScript 
+                  configuration
+
+ tslint.json :-- its lint configuration which will check the code Syantax etc.
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+ Assignment :-- > Existing ES6 Calculator convert TS code & EXECUTE with 
+                   output. 
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+
+

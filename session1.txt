@@ -1,0 +1,297 @@
+
+Training plan:--> ES6 + TS + Angular 10 
+                  (40%)    +  (60%)
++++++++++++++++++++++++++++++++++++++++++++++++++++++
+Lab Setup :--> 
+
+1. Node 12x Version install in your machine.
+2.sublime 3x / Atom/ JDEV
+3. VS code 
+4. Open Internet Connection 
+5. All Major Browser
++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+JavaScript Important pointers :--> 
+
+1.The Official Name of JavaScript is ECMAScript. (ES).
+
+2. There are three type of JS/ES used in Devlopment :--> 
+
+    1. Inline JS/ES :- part of the HTML element  <button onClick="hello()" >Click me</button>
+    2. Internal JS/ES :-- <Script>  </script> part of the page
+    3. External JS/ES (Jquery / Knockout/ bootstrap Etc.):-- refer as framework. 
+
+3. There are two type of Object used in JS/ES Development:--> 
+
+   1. Internal Object  (created by browser) :-- console/window/document/err/navigator
+   2. External Object :-- Created by the developer as per need basis:--> 
+
+       var d=new Date() // d is Date type of Object
+
+4. There are various version used in JS development :--> 
+
+
+ ES 1.1/1.2/1.3/1.4/1.5/1.6/1.7/1.8
+
+        1.5 :-- ES5 :-- Angular 1x
+        1.6 :--- ES6  :-- Angular 2 to 10 
+        1.7:---- ES7
+        1.8 :--- ES8
+
+
++++++++++++++++++++
+
+  Only four JS / ES framework which is based on ES 6 :--> 
+
+  1. React.js (facebook)  :-- ?    
+    Vue.js
+  2. Angular (Google)  :-- ?
+  3. IBM Dojo (IBM)  :-- paid
+  4. Ext.js (Scnecha) :-- paid
++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+5 : Now a days , we are moving to develop the Next Generation JS Code using 
+two important Compiler :-
+
+
+   1. Bable :--- React.js (ES6 :--- > ES5)
+   2. TypeScript (Microsoft) :-- used by Angular 2--10x (ES6 :--- ES5)
+
+
+pointer :-- JS code using Interprater/ Compiler 
+
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+setup the Evn in VS code / Sublime
+
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+
+  Angular 10 APP :-- ES 6 + TS + New Feature A10 
+
+
+ES6 Topic :--> (new Way/Style to get write the code:-->):--
+
+Basic ES6 :--> (ES5/ES6)
+
+Note :-- ES6 code is 2x to 3x time faster
+
+1. Class/Object /Constructor  :-- done
+2. Methods/Properties :-- done
+3. static :-- done
+4. prototype Keyword:-- done
+5. Inheritance :-- done
+6. Abstraction :-- done
+7. Encapsulation :-- done
+8. Namespace :-- > 
+ 
+1. ) Name space is the global object using to expose the complete javascript 
+lib For example :-- 
+
+  Jquery :-- $/ Jquery 
+  Angular JS 1x :-- Angular
+
+2.)  var MyApplication = {}; 
+
+
+     MyApplication.Methodname= function() {}// Impl.
+
+
+
+
+
++++++++++++++++++++++++++++++++++++++++++++
+
+Advanced ES6 :->
+
+1. let Vs Const  :-- done
+2. Arrow function:-- done
+3. Destructuring:-- done
+4. spread Operator :-- done   
+++++++++++++++++++++++++++++++++++++++++++++++ 
+
+Angular 10  / React .V16   
+
+++++++++++++++++++++++++++++++++++++++++++++++ IE (internet Explorer)
+
+challage :-- ES6 :--- most of the browser (edge/chrome/firefox/safari) are
+ supporting the ES 5 code (99.9%) & ES6 code (100%)  10-15%
+
+    Fixed by ts code :---- (ES6 )   :--- 100%
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+2. Methods/Properties :-- There are three type of properties & method 
+in ES6 :--> 
+
+   1. private properties/Methods:-- _ (no support in browser)
+   2. public properties/Methods :--  this 
+   3. previledged properties/methods :-- no keyword
+
+  Note :-- this implementation are using for manuplate the code in ES 6. its 
+using to get expose the private stuff outside the scope of class. 
+
+2. Previledged method itself a public method used to expose the private 
+stuff outside the class. 
+
+static  :-- call by class name 
+
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+4. Role of prototype Keyword:--> 
+
+
+   1.) prototype is the reserve keyword used Extensively in JS development. 
+   2.) it support Open Close principle in JS development (open for Extension 
+     close for Modification). 
+   3.) The default scope of prototype is public.
+
+ 
+  use case :-- Jquery.js (core/ utilities/DOM/Effects) : 9.x in market :-- 
+                10.x  (xyx()/ www()).
+
+  Adding extension in the code using prototype :--> 
+
+   property Addition :--> 
+
+     ClassName.prototype.properties=100;
+
+     classname.prototype.methodName=function(){
+
+       // implementation 
+      }
+
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+Inheritance:-- > Resubility of the code :--> Type of Inheritanace :--> 
+
+Note :--> only and only single level Inheritance are supported.
+
+2. For Achive the inheritance , we can use the Extends Keywork
+
+Note :-- in Es/JS  Over loading is not possible but we can ovveride the method. 
+
+  
+++++++++++++++++++++++++
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+
+1. let/var Vs Const  :-->
+
+1. var is completely chanaged  by the let keyword in ES 6 . 
+2. let is more power than var keyword. why ? 
+
+  we can set the scope of of let in various level. 
+  
+ 1. function level 
+ 2. Class level 
+ 3. block level 
+
+ JavaScript  Scope :--> There are two type of Scope in JS code . 
+
+   1. Local scope 
+   2. Global Scope. 
+
+   var ref=100;
+   function test(){
+
+   var ref1=200;
+
+  }
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+2. Arrow function :--> 
+
+  1.) its basically refer the Lambda expression 
+  2.) represent by the => operator
+  3.) it's treat as normal function in JS container but represent in the 
+      form Expression. 
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+3. Destructuring
+
+1.) DeStructuring is the very important functionality used in JS Stack 
+    to Solve the reoccuring problem in development. 
+
+  Structure :-- ?  C/C++/C#/Java :--> 
+
+  Array is a Structure :--  
+
+  Array :-- Struct :--- Union :-- Collection :-- Add ons various DS. 
+
+  
+     ASP <--------------------->C#  Array/List/map  (structure)
+    (iterate here)(iterate)    listEmployee (return) 
+    DeStructure
+
+
+ Note :-- ES6 introduced the new way or syntax to DeStructure the code 
+          in universal manner. 
+
+
+// Iteration :-->
+
+  // Put iteration here 
+     
+    for (let {role: mainRole, name :testName} of movies.cast) {
+      
+      console.log('Role: ' + mainRole);
+      console.log('Name' +testName);
+    }  
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+  Spred Operator :--> 
+
+  1. its Represent by ... in Back end / Forend developement. 
+  2. its convert  the no of parameter in Array Object. 
++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+   function test(...params){ 
+
+   // impl  // param[]
+
+}
+
+
+   test(2,34,5,676,78,8,89,9,0,0,-0,-,=,=,\=\,=0-,8,8,8,8,)
+
+
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+
+Assignment :--> 
+
+ Develop the Sci Calculator in ES6 which contains the two class's:--> 
+
+ 1. BasicCal 
+ 2. SciCal 
+
+Note :-- Use all the concept of ES6 :-- Inheritance/prototype/static/all
+public method impl in the code . 
+
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+
+
+
+
+
+
+
+
+ 
+
+
+  
+
+
+
+    
+
+
+
+
+
+
+   
+
+
+
