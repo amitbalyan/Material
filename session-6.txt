@@ -1,0 +1,227 @@
+Today's Agenda :-->  (Freezed) 
+
+1. SPA Routing (Basic Route/ Complex Route (Child Routing)). :--done
+
+2. Login Module(data from web service) :----Dashboard :--> further process. :
+
+ :-- done 
+
+
+
+3. OAuth 0/1/2  JWT token (SessionStorage/LocalStorage).
+
+4. Integration with Material Comp/Prime NG (Basic Chart) :-- Reference Chart Lib. (Module Integration):--- done
+
+  GIT :-- CI /CD :-- Azure Cloud /AWS Cloud
+
+
+
+
+
+5. NGGrid with Angular (varity of Grid impl.) Reference. Code. 
+
+
+6. Testing with Jasmine & karma. 
+
+7. Build & deployment. 
+
+8. Type Of Forms (Template Driven /Reactive Form /Validation).
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+Responsiveness How We can Achive ??     Web API :-- Data Expose :-- Grid
+                                       NPOI/POI Package
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+ SPA Routing (Basic Route/ Complex Route (Child Routing)). :--> 
+
+
+1. Creating the Component :--> 
+
+   1.) Define the Routes Rule usind AppRoute in the app-routing-Module.ts file .
+                /customer   :-- NormalCustomer
+                Path :--- Component
+   2.) You have to define the Nav bar as Link/Button on your screen :--> 
+
+       Nav Bar :-- Home   NoramlCustomer  PremimumCustomer
+
+   3.) Render all the Ng-View (partial Renderer) using .
+
+           <router-outlet></router-outlet>
+  
+   4:) if you want Define the Child route in Application :--> 
+
+      children :   path : component: 
+
+
+
+
+
+
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+
+Angular will not provide session Mgmt:--> 
+
+ HTML 5 session mgtm :-- sessionstorge / Localstorge
+
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+4. Integration with Material Comp/Prime NG (Basic Chart) :-- Reference Chart Lib. (Module Integration)
+
+  GIT :-- CI /CD :-- Azure Cloud /AWS Cloud
+
+ 1. Bootstrap :-- Exist in code  UX:--> 1. Responsiveness/PWA/Assibility/performance
+ 2. Material JS (mat component):--no chart (graph)
+ 3. prime NG
+
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+Responsiveness :-- > ?? challange  ??? 
+
+1. what ever divice set up as UI screen (Adaption)  ?? 
+
+ Current APP :-- Responsiveness problem :---> 
+
+ Any Framework  :-- No framework :--> used <table> <tr></td> <table>
+
+  CSS :-- your own CSS & 
+
+ Mixed App Style :-- 30 40 Bootstrap //50 60 percent (CSS 2 / 3 implement)
+ +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+
+  project :-- touch / change ????
++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+1. OAuth 0/1/2  JWT token (SessionStorage/LocalStorage).
+
+
+
+
+   CSS 3 :-- Box model ():-- padding/margin/gap/space
+   CSS 3 :--- Position in CSS3 :-- relative /fixed/abaslute 
+
+:-- chalange :--> component Responsive comp.
+
+  CSS3 :--- > @rule in CSS :--> 
+
+            1. @keyframe
+            2. @import
+            3. @media :--- Size of Screen @media rule
+            4. @fontface
+
+
++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+  PRIMEFACES (jsf)  UI :-- User 
+
+
+PRIMEFACES  :- JS :--- UI Component :--primeNG :---> Angular/react/Vue/JSF
+
+Prime NG is Extension of Angular :--> 
+
+
+
+  hybrid :-- -Angular :-- ionic   :-- PrimeNG 
+  hybrid :-- React :-- React Native
+
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+8. Type Of Forms (Template Driven /Reactive Form /Validation).:--> 
+
+There are two type of Forms in Angular :--> 
+
+1. Template Driven form (ngForm). (Small form ) less Complex. (Multiple form) 
+2. Reactive From :--> its contains complex implementation . (Complex validation) :--- Reuired  (Custome Validation )  :-- Model :--> 
+
+ 
+ 15 Min Breaak (tea)
+
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+1. NGGrid with Angular (varity of Grid impl.) Reference. Code. 
+
+
+2. Testing with Jasmine & karma. 
+
+3. Build & deployment. :--- ng build
+
+4. OAuth 0/1/2  JWT token (SessionStorage/LocalStorage).
+
+
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+Angular Grid :-- No UI Component :--> 
+
+1. Material Grid (Complex). 
+2. Ag-grid (Intractive) :--paid
+3. UI grid (Angular 1 x) :-- Sample  :-- NPM is introduced.
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+2. Testing with Jasmine & karma. :--> 
+
+ TDD :-- Testing with NUNIT :--> ????
+
+
+pointer for angular testing :--> 
+
+ 1. Angular are using Jasmine Engine for writing the test case. 
+ 2. Jasmine is Testing framework which is using to get write the test case
+     
+     1. describe() :--- Test Suit
+     2. it () :-- test case 
+     3. expect() :--- Assert :-- want required two thing :-- Expected/Actual
+     4. Matcher :--- Readymade funcition used in dev.
+
+ 3. Karma is Test Runner :--> with report & coverage (instalbul)
+
+ 4. Angular is using build in Configuration of TDD env. 
+
+ 5. ng test :---=> Execute the test Runner karma & run all test case. 
+
+
+  Demo 1 :-- Basic demo of jasmine 
+  Demo 2 :--- Angular Demo of Testing . 
+
++++++++++++++++++++++++++++++++++++++++++++++++
+  C# :-- Java :--  Cryptography :-- MD3/MD5/RSA 111/112/231  ......> bit Eny/Dny
+                Cyper Txt
+   JWT :-- json Web Token (Verification) :-- public /Private IMP RSA 
+                 
+    Client ----------------------> Server
+           <---------------------
+
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+    amitkr.balyan@gmail.com
+    +91-8126688804
+
+
+
+
+++++++++++++++++++++++++++++++++++++++++++++++++
+
+ Rxjs :-- Reactive programming :--
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,105 @@
+UI /UX :--> GOF design pattern
+
+ UX :- UX Pattern
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+Todays Agenda :---> 
+
+1. Angular Service Implementation (Create/List)(update/delete):--> done
+
+Assignment :-- develop end to end CURD operation with AS(Angular service
+) with JSON-Server Web API in Existing project. 
+
+2. Logger NgxLogger Integration in Code.   :-- done
+3. JSON Server BAck End (API) For your project. (Web API). :-- done
+
+4. SPA Development (Basic Routing/ Complex Routing):-- Login :-- 
+    Dashboard :-- Other Functionalities.
+5. Material / PrimNG Component. 
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+ 
+1. Angular Service Implementation (Create/List)(update/delete):--> 
+
+1.) We used @injectable Decorator for AS (Angular Service Impl.).
+2.) its belong to @Angular/common/http module. which contains various
+   http methods :--> 
+   http.get() :-- Fetch :-- 200k
+   http.post():---create :-- 201k 
+   http.put():----update:---200k 
+   http.delete():--delete :-- 200k 
+
+3. Configure the Http Module in app.module.ts & inject the dependencies in import Section. 
+
+4. Demo :-- basic demo :--- Readymade CLoud API ()Direct 
+            Complex demo:-- JSON Server (Web API). 10
+
+
+
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+2. Logger NgxLogger Integration in Code.:--> 
+
+There are two Module :--> 
+
+1. Internal Module (Form/http/core/plateform browser etc.)  
+2. External Module  (Our Own Module & as a plugin)
+
+ Logger :-- Onwards 8 Ngx logger are using for Development :--> 
+
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+SPA Development (Basic Routing/ Complex Routing):-- Login :-- 
+    Dashboard :-- Other Functionalities.:-->
+
+
+1. SPA vs MPA (single page App/Multi page App.). 
+
+2. Using mordern SPA i.e we did not require Browser Declaration code . 
+
+3. Modular Approach achived Lazy Laoding. 
+
+4. Default support of partial Rendering (AJAX Feature). 
+
+5. Achive those things by @Angular/router. 
+
+6. Angular router. contains various Class & Navigation Link . 
++++++++++++++++++++++++++++++++++++++++++++++++++  
+
+ SPA Demo :--> basic demo of router 
+ SPA Demo :---> complex Demo of Router (Child routing)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+ 
+ 
+  
+             
+
+
+
+
+
+
+
+
+
+
+
+
